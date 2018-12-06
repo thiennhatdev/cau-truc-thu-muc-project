@@ -147,3 +147,23 @@ The structure presented in this boilerplate is grouped primarily by folder conte
 * [sourcemaps](https://github.com/floridoo/gulp-sourcemaps) : Create CSS and JavaScript map files to debug the code within compressed files.
 * [uglify](https://github.com/terinjokes/gulp-uglify) : Minify JavaScript files.
 * [gutil](https://github.com/gulpjs/gulp-util) : Log the error message with red highlighting for easier reading.
+
+
+
+
+
+
+************************************************
+# CẤU TRÚC THƯ MỤC PROJECT RUBY
+-Thư mục gốc
+            -----vendor(là thư viện ngoài)
+                       ------bootstrap
+                       ------font awesome
+                       ------wowjs
+                       ------iquery
+                       
+            -----node modules
+            ------app(thư mục chính)
+                  -------asset: chứa thư mục css,images,javascript
+                  -------view: chứa những file pug or slim
+                  
